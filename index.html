@@ -1,15 +1,306 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>kitobit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.101.0">
+    <title>Программист</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/blog/">
+
+
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+
+        .b-example-divider {
+            height: 3rem;
+            background-color: rgba(0, 0, 0, .1);
+            border: solid rgba(0, 0, 0, .15);
+            border-width: 1px 0;
+            box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+        }
+
+        .b-example-vr {
+            flex-shrink: 0;
+            width: 1.5rem;
+            height: 100vh;
+        }
+
+        .bi {
+            vertical-align: -.125em;
+            fill: currentColor;
+        }
+
+        .nav-scroller {
+            position: relative;
+            z-index: 2;
+            height: 2.75rem;
+            overflow-y: hidden;
+        }
+
+        .nav-scroller .nav {
+            display: flex;
+            flex-wrap: nowrap;
+            padding-bottom: 1rem;
+            margin-top: -1px;
+            overflow-x: auto;
+            text-align: center;
+            white-space: nowrap;
+            -webkit-overflow-scrolling: touch;
+        }
+    </style>
+
+
+    <!-- Custom styles for this template-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
 </head>
 
 <body>
-    <h1>Hello 2</h1>
+
+    <div class="container">
+        <header class="blog-header lh-1 py-3">
+            <div class="row flex-nowrap justify-content-between align-items-center">
+                <!-- 
+                <div class="col-4 pt-1">
+                    <a class="link-secondary" href="#">Subscribe</a>
+                </div>
+                -->
+                <div class="col-8 text-center">
+                    <a class="blog-header-logo text-dark" href="/">Прикладной программист</a>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="nav-scroller py-1 mb-2">
+            <nav class="nav d-flex justify-content-end">
+                <a class="p-2 link-secondary" href="#">Портфолио</a>
+                <a class="p-2 link-secondary" href="/resume.html">Резюме</a>
+            </nav>
+        </div>
+    </div>
+
+    <main class="container">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+            <div class="col-12">
+                <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
+                    <div class="col-md-6 px-0">
+                        <h2 class="display-6 fst-italic">Настройка, программирование, поддержка.</h2>
+                        <p class="lead my-3">Работа в команде. Систематизация, Автоматизация.</p>
+                        <!--
+                <p class="lead mb-0"><a href="#" class="text-white fw-bold">Continue reading...</a></p>
+                -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-2">
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">Бюджет</strong>
+                        <h3 class="mb-0">Бюджет движения денежных средств</h3>
+                        <div class="mb-1 text-muted">2021</div>
+                        <p class="card-text mb-auto">Инструмент для оценки и контроля финансовых результатов работы
+                            компании. </p>
+                        <a href="#" class="stretched-link">Подробнее</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-success">API</strong>
+                        <h3 class="mb-0">КУРСЫ валют</h3>
+                        <div class="mb-1 text-muted">2021</div>
+                        <p class="mb-auto">Пример загрузки курсов валют по API Приватбанка</p>
+                        <a href="#" class="stretched-link">Подробнее</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-5">
+            <div class="col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    Информационные системы
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title mb-1">Эффективное применение информационных систем</h2>
+                    <p class="blog-post-meta">January 1, 2021 by <a href="#">Дмитрий</a></p>
+
+                    <p>Информационная система есть совокупность технического, программного и организационного
+                        обеспечения, а также персонала, предназначенная для того, чтобы своевременно обеспечивать
+                        надлежащих людей надлежащей информацией</p>
+                    <hr>
+                    <p>Каждая компания на разных этапах своего развития сталкивается с необходимостью выбора системы
+                        управления предприятием. </p>
+                    <blockquote class="blockquote">
+                        <p>Откуда берутся данные</p>
+                    </blockquote>
+                    <p>Для начала давайте разберемся, откуда вообще могут взяться данные для вашей системы. Есть
+                        следующие варианты:</p>
+
+                    <ol>
+                        <li>Разрабатываемая информационная система и есть первоисточник данных. Важно отметить, что под
+                            первоисточником подразумевается не юридическая значимость, а то, что данные вводятся и
+                            контролируются полностью ИС.</li>
+                        <li>Разрабатываемые системы получают данные из другой системы, которая является первоисточником
+                            данных. </li>
+                        <li>Разрабатываемая система получает данные, первоисточником которых являются реальные документы
+                            или ИС, которые фактически не вели контроль целостности хранимых данных.</li>
+                    </ol>
+
+                    <h3>Мифы и легенды о данных</h3>
+                    <p>Обычно люди, которые никогда серьезно не занимались обработкой данных, верят сразу в несколько
+                        мифов о свои данных:</p>
+                    <ul>
+                        <li><b>Бизнес-идентификатор уникален.</b> Это не всегда, даже если это прописано по закону.
+                            Результат налицо: две посылки, которые были отправлены по одному номеру. </li>
+                        <li><b>Данные структурированы и имеют четкие связи, прописанные по ключам.</b> Так тоже бывает
+                            далеко не всегда. При разработке ИС часто наблюдается такая картина. Аналитики создают
+                            красивую и подробную ER-модель, в которой прописаны все ограничения и ссылки (foreign keys).
+                            А при поступление реальных данных этих ограничений становится все меньше и меньше – просто
+                            потому, что в систему попадают данные, которые им не удовлетворяют.</li>
+                        <li><b>Данные реальных объектов не меняются.</b> В конце нулевых нормой было считать телефон
+                            уникальным для конкретного абонента. Если сценарии смена номера телефона еще
+                            прорабатывались, то вот сценарий отказа от номера телефона и возвращение в его оборот – нет.
+                        </li>
+
+                        <li><b>Данные форматированы. </b> Предположим, что информационная система поставщик данных
+                            хранит данные в реляционной СУБД. Насчет связей мы уже проговорили, на них не полагаемся. И
+                            кажется, что со всем остальным проблем не будет. Но не тут-то было: бывает всякое. Например,
+                            даты могут хранится не в виде специального типа данных, а просто в виде текста. Почему?
+                            Приведем простой пример. Клерк ошибся и внес в бумажный документ дату постройки здания,
+                            например, 30.02.1974. В бумажном виде опечатка и опечатка, как говорят автолюбители – на
+                            скорость не влияет. А в цифровом виде ее в систему не загрузить. Выход? Храним в виде
+                            текста. А если храним дату в виде текста, то ожидайте там и 12 января 1984, и 01.янв.2993 и
+                            вообще какой угодно формат.
+                        </li>
+
+                    </ul>
+
+
+                    <h4>Виды информационных систем в организации</h4>
+
+
+                    <p>Так как имеются различные интересы, особенности и уровни в организации, существуют различные виды
+                        информационных систем. Никакая единственная система не может полностью обеспечивать потребности
+                        организации во всей информации. Организацию можно разделить на уровни: стратегический,
+                        управленческий, знания и эксплуатационный; и на функциональные области типа продажи и
+                        маркетинга, производства, финансов, бухгалтерского учета и человеческих ресурсов. Системы
+                        создаются чтобы обслужить эти различные организационные интересы. Различные организационные
+                        уровни обслуживают четыре главных типа информационных систем: системы с эксплуатационным
+                        уровнем, системы уровня знания, системы уровня управления и системы со стратегическим уровнем.
+                    </p>
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>Типы информационных систем</th>
+                                <th>Группы служащих</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Стратегический уровень</td>
+                                <td>Высшее руководство</td>
+                            </tr>
+                            <tr>
+                                <td>Управленческий уровень</td>
+                                <td>Средние менеджеры</td>
+                            </tr>
+                            <tr>
+                                <td>Уровень знаний</td>
+                                <td>Работники знания и данных</td>
+                            </tr>
+                            <tr>
+                                <td>Эксплуатационный уровень</td>
+                                <td>Управляющие операциями</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+
+                        </tfoot>
+                    </table>
+
+                    <p>Общей стратегической целью создания корпоративной информационной системы
+                        является повышение управляемости, что позволяет увеличить экономическую эффективность и
+                        качественно улучшить производственные показатели предприятия. Достижение этой цели в рамках
+                        создания корпоративной информационной системы должно быть реализовано за счёт применения на
+                        предприятии всего комплекса информационных технологий, а именно:
+                        - сбора достоверной информации;
+                        - оперативной обработки данных о фактах производственно-хозяйственной деятельности;
+                        - аналитической поддержки принятия управленческих решений;
+                    </p>
+                </article>
+
+            </div>
+
+            <div class="col-md-4">
+                <div class="position-sticky" style="top: 2rem;">
+                    <div class="p-4 mb-3 bg-light rounded">
+                        <h4 class="fst-italic">Автоматизация документооборота</h4>
+                        <p class="mb-0">Документооборот является очень важным процессом деятельности любого предприятия.
+                            Хорошо отлаженная система учётного документооборота отражает реально происходящую на
+                            предприятии текущую производственную деятельность и даёт управленцам возможность
+                            воздействовать на нее. Поэтому автоматизация документооборота позволяет повысить
+                            эффективность управления.</p>
+                    </div>
+
+                    <div class="p-4">
+                        <h4 class="fst-italic">Elsewhere</h4>
+                        <ol class="list-unstyled">
+                            <li><a href="https://kitobitfantasy2.github.io/">GitHub</a></li>
+                            <li><a href="https://twitter.com/kitobit">Twitter</a></li>
+                            <li><a href="https://t.me/Fdxty">telegram</a></li>
+                            <li><a href="live:.cid.56e4f87b93e32987">Skype</a></li>
+                            <li><a href="mailto:kitobit.fantasy2@gmail.com
+                                ">email</a></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="blog-footer">
+        <p>
+            <a href="#">Back to top</a>
+        </p>
+    </footer>
+
+
+
 </body>
 
 </html>
